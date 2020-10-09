@@ -1,0 +1,51 @@
+body{
+
+    margin: 0;
+    padding: 0;
+}
+.cont{
+
+    width: 95%;
+    max-width: 1800px;
+    margin: 10px auto;
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+}
+
+
+.cont .titulo {
+    width: auto;
+    background-color: rgb(48, 106, 129);
+    border: 5px solid black;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: -1;
+    
+  }
+
+  .cont .btncate{
+    
+    background-position: left;
+    
+    border: 3px solid black;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    grid-column: 1 / 2;
+    
+
+    
+  }
+  .cont .btnestu{
+    
+    background-position: center;
+    margin: 10px;
+    border: 3px solid black;
+    width: 200px;
+    height: 200px;
+    grid-column: 2 / 3;
+    
+    
+  }
