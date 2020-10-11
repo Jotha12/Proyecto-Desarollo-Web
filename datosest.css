@@ -1,0 +1,20 @@
+
+.tit_est h3{
+  /*  background-color: cyan;*/
+    color: blue;
+    position:relative;
+    font-weight: bold;
+    
+}
+
+.car_est h3{
+    /*background-color: cyan;*/
+    color: blue;
+    font-weight: bold;
+   }
+
+   .correo_est h3{
+       /*background-color: cyan;*/
+       color: blue;
+       font-weight: bold;
+   }
