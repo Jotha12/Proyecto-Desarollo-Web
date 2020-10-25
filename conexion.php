@@ -1,16 +1,19 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
 <?php
+$u = $_POST["user"];
+$p = $_POST["pass"];
 
-// $serverName = "localhost";
-// $conectionInfo = array("Database"=>"ProyectoDW", "UID"=>"J", "PWD"=>"1", "CharacterSet"=>"UTF-8");
-// $con = sqlsrv_connect($serverName, $conectionInfo);
-
-
-// if($con){
-
-    echo "es un exito ";
-// }else{
-
-    echo "dedicate a la pezaca mejor";
-// }
+echo "mi usuario es:" .u. "";
+echo  "mi password es:" .p. "";
 
 ?>
+</body>
+</html>
