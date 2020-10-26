@@ -2,8 +2,8 @@
 <html lang="es">
 <head>
 	<meta charset="UTF-8">
-    <title>Menu Principal Estudiante</title>
-    <link rel="stylesheet" href="menuest.css">
+    <title>cursos catedratico</title>
+    <link rel="stylesheet" href="css/calificacionescat.css">
 </head>
 <body>
 	<header class="header">
@@ -12,12 +12,11 @@
 			<label for="btn-menu">☰</label>
 		</div>
 			<div class="logo">
-				<h1>MENÚ</h1>
+				<h1>CALIFICACIONES</h1>
 			</div>
 			<nav class="menu">
-				<a href="#">Inicio</a>
-				<a href="#">Calificaciones</a>
-				<a href="#">Cerrar Sesión</a>
+				<a onclick="location='menuest.php'">Inicio</a>
+				<a onclick="location='index.php'">Cerrar Sesión</a>
 			</nav>
 		</div>
 	</header>
@@ -27,12 +26,18 @@
 <div class="container-menu">
 	<div class="cont-menu">
 		<nav>
-			<a href="#">Cursos</a>
-			<a href="#">Tareas</a>
-			<a href="#">Comentarios</a>
+			<a onclick="location='tareascat.php'">Tareas</a>
+			<a onclick="location='cursosest.php'">Cursos</a>
 		</nav>
 		<label for="btn-menu">✖️</label>
 	</div>
 </div>
 </body>
 </html> 
+
+
+
+
+
+
+

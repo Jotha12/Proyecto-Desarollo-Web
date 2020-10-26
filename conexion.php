@@ -1,19 +1,10 @@
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
 <?php
-$u = $_POST["user"];
-$p = $_POST["pass"];
 
-echo "mi usuario es:" .u. "";
-echo  "mi password es:" .p. "";
+$host = 'localhost';
+$user = 'root';
+$pass = '';
+$data = 'proyecto2';
 
+$conexion = mysqli_connect($host, $user, $pass) OR die('problemas con la autenticacion');
+mysqli_select_db($conexion, $data) or die('problemas con la base de datos');
 ?>
-</body>
-</html>
