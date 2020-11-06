@@ -12,7 +12,7 @@
 
     //var_dump($size);
 
-  /*  if($checarSiImagen != false){
+    if($checarSiImagen != false){
 
         //validando tamaño del archivo
         $size = $_FILES["file"]["size"];
@@ -35,7 +35,7 @@
         }
     }else{
         echo "El documento no es una imagen";
-    }*/
+    }
 
     if(move_uploaded_file($_FILES["file"]["tmp_name"], $archivo)){
         echo "El archivo se subió correctamente";

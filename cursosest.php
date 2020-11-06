@@ -20,10 +20,12 @@
 			</nav>
 		</div>
 	</header>
-	<div class="capa"></div>
+	
+<div class="capa"></div>
+	
 <!--	--------------->
-<input type="checkbox" id="btn-menu">
-<div class="container-menu">
+	<input type="checkbox" id="btn-menu">
+	<div class="container-menu">
 	<div class="cont-menu">
 		<nav>
 			<a onclick="location='tareasest.php'">Tareas</a>
@@ -31,8 +33,21 @@
 		</nav>
 		<label for="btn-menu">✖️</label>
 	</div>
+	</div>
 </div>
+
+
+
+
+
 </body>
+<div class="cua">
+
+	<a href="tareasest.php">DESARROLLO WEB</a>
+	<H3>ING. Ricardo Ibarra</H3>
+
+
+</div>
 </html> 
 
 

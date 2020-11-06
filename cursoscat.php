@@ -5,7 +5,7 @@
     <title>cursos estudiante</title>
     <link rel="stylesheet" href="css/cursoscat.css">
 </head>
-<body>
+
 	<header class="header">
 		<div class="container">
 		<div class="btn-menu">
@@ -32,6 +32,8 @@
 		<label for="btn-menu">✖️</label>
 	</div>
 </div>
+<body>
+	
 </body>
 </html> 
 
