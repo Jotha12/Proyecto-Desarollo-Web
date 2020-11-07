@@ -15,10 +15,10 @@ $query = mysqli_query($conexion,"SELECT * FROM usuario WHERE nombre = '".$nombre
 $nr = mysqli_num_rows($query);
 
 if($nr == 1){
-    //header("Location: menuest.php");
+    header('Location: menuest.php');
 }
 else if ($nr == 0) {
-    //header("Location: loginEst.php");
+    header('Location: loginEst.php');
 }
 ?>
 
@@ -39,7 +39,7 @@ else if ($nr == 0) {
             <input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab"></label>
             <div class="login-form">
                 <div class="sign-in-htm">
-                    <form method="post" action="menucat.php">
+                    <form method="post" action="#">
                         <div class="group">
                             <label for="user" class="label">Username</label>
                             <input id="user" name="txtusuario" type="text" class="input"/>

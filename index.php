@@ -18,7 +18,7 @@
         
             <div class="btncate">
                 <img src="imagenes/img2.png" width="auto" height="250px">
-                <button class="btn" type="submit"onclick="location='loginCat.php'">Catedratico</button>
+                <button class="btn" type="submit"onclick="location='loginEst.php'">Catedratico</button>
                         
                 
             </div>
